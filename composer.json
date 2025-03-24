@@ -3,7 +3,7 @@
   "description": "A Laravel package to extract and save translation keys or strings",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0-beta",
+  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "Matsevh\\LanguageFinder\\": "src/"
