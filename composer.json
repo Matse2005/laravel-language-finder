@@ -1,0 +1,25 @@
+{
+  "name": "matsevh/laravel-language-finder",
+  "description": "A Laravel package to extract and save translation keys or strings",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Matsevh\\LaravelLanguageFinder\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MatseVH",
+      "email": "matse@vanhorebeek.be"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Matsevh\\LanguageFinder\\LanguageFinderServiceProvider"
+      ]
+    }
+  }
+}
